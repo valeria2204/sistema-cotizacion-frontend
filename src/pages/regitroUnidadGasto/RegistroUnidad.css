@@ -1,0 +1,27 @@
+/* .principal{
+align-items: center;
+display: flex;
+height: 100vh;
+}
+
+.secundario{
+margin: 0 auto;
+}
+
+
+.bi{
+    position: relative;
+    right: -215px;
+}
+
+.botones{
+    height: 58px;
+
+}
+
+.btnguardar{
+    margin-right: 34px;
+} */
+.modal-content {
+    float:left;
+  }

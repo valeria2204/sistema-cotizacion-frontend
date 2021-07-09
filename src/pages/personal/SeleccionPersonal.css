@@ -1,0 +1,15 @@
+#tablaC {
+    width: auto;
+    margin: 0 auto;
+    border: 1px solid #999; 
+    border-collapse: collapse;
+}
+#fila{ 
+    padding: 5px 10px;
+    text-align: center;
+    /* border: 1px solid #999; */
+}
+
+#titulo-tabla{
+    text-align: center;
+}

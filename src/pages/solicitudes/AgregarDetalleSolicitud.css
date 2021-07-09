@@ -1,0 +1,48 @@
+
+  #inputs{
+    margin-left: 5%;
+  }
+
+
+  #toolbar{
+    text-align: right;
+  }
+
+  #btnV{
+    margin-left: 15px;
+  }
+  
+  #registro{
+    margin-left: 5%;
+  }
+
+  #formRegistro{
+    margin-right: 20%;
+  }
+
+  #list{
+    margin-left: 5%;
+  }
+
+  input[type="file"]#files{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+
+  label[for="files"]{
+    font-size: 16px;
+    line-height: 1.5rem;
+    color: white;
+    background-color: #6c757d;
+    cursor: pointer;
+    padding: 5px 5px !important;
+    width: fit-content;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-radius: 3px;
+  }
+

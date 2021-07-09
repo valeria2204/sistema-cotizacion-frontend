@@ -1,0 +1,61 @@
+
+.table-striped{
+  border-collapse: collapse;
+  border: 1px solid darkgrey;
+  text-align: center;
+} 
+
+/* .table-striped thead{
+text-align: center;
+width: 100%;
+}
+
+.table-striped tbody {
+height: 200px;
+width: 100%;
+text-align: center;
+}
+
+.table-striped thead,
+.table-striped tbody,
+.table-striped tr,
+.table-striped td,
+.table-striped th {
+display: block;
+}
+
+.table-striped tbody td,
+.table-striped thead > tr> th{
+float: left;
+border-bottom-width: 0;
+} 
+   */
+
+label.col-form-label{
+  border-collapse: collapse;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  width: 100%;
+}
+#input{
+  margin-left: 5%;
+  margin-right: 5px;
+}
+#formData{
+  margin-right: 15%;
+}
+#lista{
+  margin-right: 20%;
+  margin-left: 2%;
+}
+
+#toolbar{
+  text-align:end;
+}
+
+#containerInforme{
+  height: 300px;
+  border-collapse: collapse;
+  border: 1px solid darkgrey;
+  overflow-y:auto;
+}

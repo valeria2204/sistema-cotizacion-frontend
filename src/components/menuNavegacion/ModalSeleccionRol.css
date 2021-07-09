@@ -1,0 +1,37 @@
+#card{
+    /* width: 15rem; */
+    width: 220px;
+    border-style: ridge;
+}
+#card-image{
+    padding-top: 10px;
+    color: grey;
+    align-content: center;
+    height:auto;
+}
+#card-button{
+    color: seagreen;
+}
+/* @media (max-width:500px){
+    .tabla {
+       grid-template-columns: repeat(2, 1fr);
+    }
+} */
+.center{
+    vertical-align: middle; 
+    margin-left: 8%;
+}
+.tabla {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+    gap: 10px;
+    justify-content: center;   
+    padding-top: 10px;
+    padding-bottom: 10px;  
+    width: 100%;
+    
+}
+.grid-container--fill {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    
+}

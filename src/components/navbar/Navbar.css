@@ -1,0 +1,24 @@
+#cabecera{
+    background :dodgerblue;
+    color: white;
+    font-family: Lato; 
+    border-width: 5px;
+    border-color: black;
+}
+
+#userImg{
+    color: white;
+}
+
+#navmenu{
+    border: 15px;
+    border-color: black;
+}
+
+a.nav-link{
+    color: #47525e;
+}
+a.nav-link:hover{
+    background-color: #e5e9f2;
+    color: #47525e; 
+}
