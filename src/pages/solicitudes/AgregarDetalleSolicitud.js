@@ -120,7 +120,7 @@ function AgregarDetalleSolictud(){
             const token=window.localStorage.getItem("tokenContizacion");
             const headers = { headers: {'Authorization': `Bearer ${token}`}};
             console.log("archivo que se manda",formData)
-            const res = await axios.post('https://tis-sistema-cotizacion.herokuapp.com'+id,formData,headers);
+            const res = await axios.post('https://127.0.0.1'+id,formData,headers);
             console.log("respuesta ",res);
         }
     }
