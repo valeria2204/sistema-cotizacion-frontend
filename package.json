@@ -1,5 +1,6 @@
 {
   "name": "front-sistema-cotizacion",
+  "homepage":"https://valeria.teciabolivia.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

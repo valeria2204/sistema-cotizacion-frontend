@@ -6,7 +6,7 @@ function VentanaVerArchivo(){
     const {id} = useParams();
     const {fl} = useParams();
 
-    const file = 'http://127.0.0.1:8000/api/showFile/'+id+'/'+fl;
+    const file = 'https://valeria.teciabolivia.com/laravel2/api/showFile/'+id+'/'+fl;
     const [type, setType] = useState("")
 
     useEffect(() => {
